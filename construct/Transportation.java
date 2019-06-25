@@ -2,17 +2,17 @@ import java.io.*;
 import java.util.*;
 
 /**
- * A company produces vehicles of three distinct type - bike, auto, and bus each
- * vehicle has a fixed number of wheels - 2, 4, and 6 respectively each vehicle
- * is identified with vehicle code - 1, 2, and 3 respectively
+ * Construct three vehicle types - bike, auto, and bus. 
+ * Each vehicle has a fixed number of wheels - 2, 4, and 6.
+ * Each vehicle is identified with vehicle code - 1, 2, and 3.
  * 
- * Based on input of number of persons travelling it gives the vehicle to use if
- * number of person travelling is <= 3, it returns vehicle as bike if number of
- * person travelling is > 3 and <= 8, it returns Vehicle as auto if number of
- * person travelling is > 8, it returns vehicle as bus
+ * Based on number of people travelling, return the vehicle on these rules:
+ * If <= 3, it return a bike.
+ * If > 3 and <= 8, it returns an auto.
+ * If > 8, it returns a bus.
  * 
  * Write code which takes number of persons and prints vehicle type, vehicle
- * code and its number of wheels.
+ * code, and its number of wheels.
  */
 class Solution {
     public static interface Transport {
