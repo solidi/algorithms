@@ -12,6 +12,45 @@ import java.util.*;
  **/
 class Solution {
 
+    public static boolean countLetters(String input) {
+        HashMap<Character, Integer> map = new HashMap<>();
+        input = input.toLowerCase();
+
+        for (int i = 0; i < input.length(); i++) {
+            char letter = input.charAt(i);
+
+            if (letter == ' ') {
+                continue;
+            }
+
+            if (map.containsKey(letter)) {
+                int count = map.get(input.charAt(i));
+                map.put(letter, ++count);
+            } else {
+                map.put(letter, 1);
+            }
+        }
+
+        boolean foundOdd = false;
+
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+            char key = entry.getKey();
+            int value = entry.getValue();
+
+            System.out.println(key + " -> " + value);
+
+            if (value % 2 != 0) {
+                if (!foundOdd) {
+                    foundOdd = true;
+                } else {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
     public static boolean isPalindrome(String input) {
         System.out.println(input);
         for (int i = 0; i < input.length() / 2; i++) {
@@ -52,9 +91,10 @@ class Solution {
     }
 
     public static void main(String args[]) {
-        ArrayList<String> list = palindromePermutation("Tact Coa");
-        for (String out : list) {
-            System.out.println(out);
-        }
+        /**
+         * ArrayList<String> list = palindromePermutation("Tact Coa"); for (String out :
+         * list) { System.out.println(out); }
+         **/
+        System.out.println(countLetters("Tact Coa"));
     }
 }
