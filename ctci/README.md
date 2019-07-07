@@ -2,6 +2,10 @@
 
 A listing of associated key tricks to apply when dealing with solving problems.
 
+## General
+
+1. Start with conditionals first to focus on the core algorithm.
+
 ## Arrays
 
 1. Convert down to ASCII integer values for comparison.
