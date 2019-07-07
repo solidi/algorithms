@@ -2,9 +2,16 @@
 
 A listing of associated key tricks to apply when dealing with solving problems.
 
+## Todo
+
+1. Implement a HashMap
+1. Implement an ArrayList
+1. Implement a StringBuilder
+
 ## General
 
 1. Start with conditionals first to focus on the core algorithm.
+1. When concating many strings, use a StringBuilder.
 
 ## Arrays
 
