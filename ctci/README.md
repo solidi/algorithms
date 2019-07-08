@@ -21,3 +21,9 @@ A listing of associated key tricks to apply when dealing with solving problems.
 1. Clarify permutations. Chaging order is one definition.
 1. It is easier to replace characters in an array by working backward.
 1. Palindromes operate on even and odd number of characters.
+
+## Takeaways
+
+1. ABC's of programming. Thirty minutes of day has lasting effects.
+1. Solve problems in numerous languages to understand idomatic differences.
+1. Stop, think, and walk through the problem verbally first.
