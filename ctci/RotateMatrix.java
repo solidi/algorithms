@@ -40,6 +40,28 @@ class Solution {
         return newMatrix;
     }
 
+    public static int[][] rotateTheirs(int[][] imageMatrix) {
+        int length = imageMatrix.length;
+        for (int layer = 0; layer < length / 2; layer++) {
+            int first = layer;
+            int last = length - 1 - layer;
+            for (int i = first; i < last; i++) {
+                int offset = i - first;
+                int top = imageMatrix[first][i];
+                // left -> top
+                imageMatrix[first][i] = imageMatrix[last - offset][first];
+                // bottom -> left
+                imageMatrix[last - offset][first] = imageMatrix[last][last - offset];
+                // right -> bottom
+                imageMatrix[last][last - offset] = imageMatrix[i][last];
+                // top -> right
+                imageMatrix[i][last] = top;
+            }
+        }
+
+        return imageMatrix;
+    }
+
     public static void printResult(int[][] matrix) {
         for (int row = 0; row < matrix.length; row++) {
             for (int col = 0; col < matrix[row].length; col++) {
@@ -53,7 +75,7 @@ class Solution {
         int matrix[][] = { { 0, 0, 0 }, { 1, 1, 1 }, { 0, 0, 0 } };
 
         printResult(matrix);
-        int result[][] = rotate90(matrix);
+        int result[][] = rotateTheirs(matrix);
         printResult(result);
     }
 }
