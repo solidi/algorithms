@@ -5,7 +5,7 @@ import java.util.*;
   Write a solution to the Bubble Sort.
 */
 class Solution {
-    public static int[] bubbleSort(int values[]) {
+    public static void bubbleSort(int values[]) {
         for (int i = 0; i < values.length; i++) {
             for (int j = 0; j < values.length - i - 1; j++) {
                 if (values[j] > values[j + 1]) {
@@ -15,7 +15,6 @@ class Solution {
                 }
             }
         }
-        return values;
     }
 
     public static int[] generateArray(int size) {
@@ -27,10 +26,10 @@ class Solution {
     }
 
     public static void main(String args[]) {
-        int result[] = bubbleSort(generateArray(20));
-
-        for (int i = 0; i < result.length; i++) {
-            System.out.print(result[i] + " ");
+        int array[] = generateArray(20);
+        bubbleSort(array);
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
         }
     }
 }
