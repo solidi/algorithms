@@ -1,6 +1,6 @@
 # CTCI
 
-A listing of associated key tricks to apply when dealing with solving problems.
+A listing of associated key strategies to apply when solving problems.
 
 ## Todo
 
@@ -29,3 +29,8 @@ A listing of associated key tricks to apply when dealing with solving problems.
 1. Solve problems in numerous languages to understand idomatic differences.
 1. Stop, think, and walk through the problem verbally first.
 1. Do not overthink the solution. Think Occam's razor. Go with the simplest solution.
+1. When a solution is unclear, visualize the steps to implement.
+
+## Resources
+
+[Sorting algos visualized](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
