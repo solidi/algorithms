@@ -106,19 +106,48 @@ class Solution {
                 }
             }
         }
+
+        public void runner() {
+            Node slow = head;
+            Node fast = head;
+            int count = 0;
+
+            while (slow != null && count < 2) {
+                if (slow != fast && slow.value == fast.value) {
+                    removeValue(slow.value);
+                }
+
+                slow = slow.next;
+
+                if (slow == null) {
+                    count++;
+                    slow = head;
+                }
+
+                if (fast.next == null) {
+                    fast = head;
+                } else {
+                    fast = fast.next.next;
+
+                    if (fast == null) {
+                        fast = head;
+                    }
+                }
+            }
+        }
     }
 
     public static void main(String args[]) {
         LinkedList list = new LinkedList();
-        list.insert(new Node(4));
+        list.insert(new Node(3));
         list.insert(new Node(1));
-        list.insert(new Node(3));
-        list.insert(new Node(3));
+        list.insert(new Node(2));
+        list.insert(new Node(4));
         list.insert(new Node(3));
 
         list.print();
 
-        list.removeDup();
+        list.runner();
 
         list.print();
     }
