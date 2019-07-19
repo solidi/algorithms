@@ -27,6 +27,7 @@ A listing of associated key strategies to apply when solving problems.
 ## Linked Lists
 
 1. Duplicates can be removed in a singly linked list by using a slow and fast pointer.
+1. Operations on a linked list typically include three parts: head, middle, and tail.
 
 ## Takeaways
 
