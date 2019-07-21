@@ -28,6 +28,8 @@ A listing of associated key strategies to apply when solving problems.
 
 1. Duplicates can be removed in a singly linked list by using a slow and fast pointer.
 1. Operations on a linked list typically include three parts: head, middle, and tail.
+1. Shifting values instead of nodes can be more efficient.
+1. Sort linked lists by using temporary lists and merge them.
 
 ## Takeaways
 
