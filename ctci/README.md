@@ -13,6 +13,8 @@ A listing of associated key strategies to apply when solving problems.
 1. Start with conditionals first to focus on the core algorithm.
 1. When concating many strings, use a StringBuilder.
 1. Solve problems in numerous languages to understand idomatic differences.
+1. Build number positions with number * 10, number * 100, number * 1000.
+1. Extract number positions by number % 10 -> number / 10.
 
 ## Arrays
 
