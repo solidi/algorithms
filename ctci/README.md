@@ -38,6 +38,7 @@ A listing of associated key strategies to apply when solving problems.
 1. ABC's of programming. Thirty minutes of day has lasting effects.
 1. Stop, think, and walk through the problem verbally first.
 1. Do not overthink the solution. Think Occam's razor. Go with the simplest solution.
+1. Attempt to solve first, then optimize later.
 1. When a solution is unclear, visualize the steps to implement.
 1. There is joy in solving problems.
 
