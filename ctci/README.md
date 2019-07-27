@@ -15,6 +15,7 @@ A listing of associated key strategies to apply when solving problems.
 1. Solve problems in numerous languages to understand idomatic differences.
 1. Build number positions with number * 10, number * 100, number * 1000.
 1. Extract number positions by number % 10 -> number / 10.
+1. Return more than one value in recursive function by using a Class.
 
 ## Arrays
 
