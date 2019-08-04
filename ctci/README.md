@@ -34,6 +34,10 @@ A listing of associated key strategies to apply when solving problems.
 1. Shifting values instead of nodes can be more efficient.
 1. Sort linked lists by using temporary lists and merge them.
 
+## Stacks & Queues
+
+1. Use linked lists to back data presentation with minimal code logic.
+
 ## Takeaways
 
 1. ABC's of programming. Thirty minutes of day has lasting effects.
