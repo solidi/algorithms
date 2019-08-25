@@ -39,6 +39,27 @@ A listing of associated key strategies to apply when solving problems.
 
 1. Use linked lists to back data presentation with minimal code logic.
 
+## Graphs
+
+1. Trees are graphs.
+1. Trees can have many children. They cannot contain cycles.
+1. Trees that only have two nodes is a binary tree.
+1. Trees that have values as left descendents <= n < right descendents are binary search trees.
+1. A node that has no children is a leaf.
+1. A complete binary tree contain all nodes except the last level.
+1. A full binary tree has all nodes with zero or two nodes.
+1. A perfect binary tree all nodes filled.
+1. A binary tree can be traversed inorder, preorder, or postorder.
+1. Preorder traversal contains the root node first.
+1. Postorder traversal contains the root node last.
+1. BinaryMaxHeap and BinaryMinHeap are typically backed by arrays.
+1. array[(currentNodeIndex - 1) / 2]  Returns the parent node.
+1. array[(2 * currentNodeIndex) + 1]  Returns the left child node.
+1. array[(2 * currentNodeIndex) + 2]  Returns the right child node.
+1. Tries, also known as Prefix Tree, is an efficient string look up O(k) and identifies strings that begin with.
+1. Graphs can be directed or undirected. 
+1. Graphs are typically stored in adjacency list or adjacency matrixes.
+
 ## Takeaways
 
 1. ABC's of programming. Thirty minutes of day has lasting effects.
