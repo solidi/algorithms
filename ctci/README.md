@@ -72,3 +72,4 @@ A listing of associated key strategies to apply when solving problems.
 ## Resources
 
 [Sorting algos visualized](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
+[OpenDataStructures](https://opendatastructures.org/ods-java/)
