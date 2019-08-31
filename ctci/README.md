@@ -11,8 +11,8 @@ A listing of associated key strategies to apply when solving problems.
 ## General
 
 1. Start with conditionals first to focus on the core algorithm.
-1. When concating many strings, use a StringBuilder.
-1. Solve problems in numerous languages to understand idomatic differences.
+1. When concatenating many strings, use a StringBuilder.
+1. Solve problems in numerous languages to understand idiomatic differences.
 1. Build number positions with number * 10, number * 100, number * 1000.
 1. Extract number positions by number % 10 -> number / 10.
 1. Return more than one value in recursive function by using a Class.
@@ -23,7 +23,7 @@ A listing of associated key strategies to apply when solving problems.
 1. Convert down to ASCII integer values for comparison.
 1. To conserve space, use bit vectors.
 1. Count characters in a string using a hash table.
-1. Clarify permutations. Chaging order is one definition.
+1. Clarify permutations. Changing order is one definition.
 1. It is easier to replace characters in an array by working backward.
 1. Palindromes operate on even and odd number of characters.
 1. To optimize space, use the transformation matrix as storage.
@@ -58,7 +58,7 @@ A listing of associated key strategies to apply when solving problems.
 1. array[(2 * currentNodeIndex) + 2]  Returns the right child node.
 1. Tries, also known as Prefix Tree, is an efficient string look up O(k) and identifies strings that begin with.
 1. Graphs can be directed or undirected. 
-1. Graphs are typically stored in adjacency list or adjacency matrixes.
+1. Graphs are typically stored in adjacency list or adjacency matrices.
 
 ## Takeaways
 
