@@ -59,6 +59,7 @@ A listing of associated key strategies to apply when solving problems.
 1. Tries, also known as Prefix Tree, is an efficient string look up O(k) and identifies strings that begin with.
 1. Graphs can be directed or undirected. 
 1. Graphs are typically stored in adjacency list or adjacency matrices.
+1. Breath depth search typically uses a queue to walk the vertices.
 
 ## Takeaways
 
