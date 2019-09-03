@@ -36,7 +36,7 @@ class Solution {
             }
         }
 
-        private void DFSUtil(int v, boolean visited[]) {
+        private void DepthFirstSearch(int v, boolean visited[]) {
             visited[v] = true;
             System.out.print(v + " ");
 
@@ -44,20 +44,15 @@ class Solution {
             while (i.hasNext()) {
                 int n = i.next();
                 if (!visited[n]) {
-                    DFSUtil(n, visited);
+                    DepthFirstSearch(n, visited);
                 }
             }
-        }
-
-        public void DFS(int v) {
-            boolean visited[] = new boolean[V];
-            DFSUtil(v, visited);
         }
     }
 
     public static void main(String args[]) {
-        int V = 5;
-        Graph graph = new Graph(V);
+        int vertices = 5;
+        Graph graph = new Graph(vertices);
         graph.addEdge(0, 1);
         graph.addEdge(0, 4);
         graph.addEdge(1, 2);
@@ -67,6 +62,6 @@ class Solution {
         graph.addEdge(3, 4);
         graph.printGraph();
 
-        graph.DFS(2);
+        graph.DepthFirstSearch(2, new boolean[vertices]);
     }
 }
