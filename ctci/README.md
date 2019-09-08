@@ -8,6 +8,12 @@ A listing of associated key strategies to apply when solving problems.
 1. Implement an ArrayList
 1. Implement a StringBuilder
 
+## Problem Solving
+
+1. When coding to a solution, always review before running the program.
+1. Writing out comments on the approach is a helpful tactic.
+1. Data structures that are abstract have different, under the hood, *presentations*.
+
 ## General
 
 1. Start with conditionals first to focus on the core algorithm.
