@@ -23,6 +23,7 @@ A listing of associated key strategies to apply when solving problems.
 1. Extract number positions by number % 10 -> number / 10.
 1. Return more than one value in recursive function by using a Class.
 1. Use ArrayList<> to store numerous objects with generics.
+1. When using recursive algorithms, make sure the base and null cases are handled.
 
 ## Arrays
 
